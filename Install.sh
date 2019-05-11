@@ -59,6 +59,7 @@ wget -q https://tuxera.com/opensource/ntfs-3g_ntfsprogs-2017.3.23.tgz
 wget -q http://archive.ubuntu.com/ubuntu/pool/main/i/icu/libicu55_55.1-7_amd64.deb #libicu55
 wget -q http://security.debian.org/debian-security/pool/updates/main/o/openssl/libssl1.0.0_1.0.1t-1+deb8u11_amd64.deb #libssl1.0.0
 wget -q https://dl.google.com/dl/android/studio/ide-zips/3.4.0.18/android-studio-ide-183.5452501-linux.tar.gz #Android Studio
+wget -q https://s3.amazonaws.com/parsec-build/package/parsec-linux.deb #parsec
 
 while true; do
     read -p "Do you wish to install apt Apps?(yes/no)" yn
@@ -83,6 +84,7 @@ while true; do
 done
 
 ##install deb
+sudo gdebi parsec-linux.deb #parsec
 sudo gdebi libicu55_55.1-7_amd64.deb #libicu55
 sudo gdebi libssl1.0.0_1.0.1t-1+deb8u11_amd64.deb #libssl1.0.0
 sudo gdebi packages-microsoft-prod.deb #Microsoft .NET
