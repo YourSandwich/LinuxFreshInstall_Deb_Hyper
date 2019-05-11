@@ -1,4 +1,4 @@
-Run Install.sh
+Run Install.sh (sh ./Install.sh) don't press ctrl+c
 configure Wine with winetricks
 Install Winows Applications ($ wine application.exe) opptionaly with playonlinux or crossover
 Lanuch Google Chrome
