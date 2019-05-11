@@ -1,0 +1,43 @@
+Steam
+Wine
+Nvidia
+Lutris
+Dotnet
+Atom
+Teamviever
+Boot-repair
+git
+google-chrome-stable
+cisco packet tracer
+blender
+anbox
+audacity
+virtualbox
+discord
+filezilla
+haguichi
+inkscape
+krita
+obs
+q4wine
+ktorrent
+snapd
+wps office
+grub-customizer
+vlc
+winetricks
+visual stuio code
+xtrem downloader
+rambox
+gimp
+android-sdk
+dialog
+gamemode
+gnome-tweaks
+fish
+xdotool
+wireshark
+zenmap
+playonlinux
+nmap
+gdebi
