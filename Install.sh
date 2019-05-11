@@ -1,6 +1,6 @@
 #!/bin/bash
 ##Update your System
-sudo apt update && sudo apt upgrade && sudo apt dist-upgrade
+sudo apt update --allow-insecure-repositories && sudo apt upgrade && sudo apt dist-upgrade
 ##configure dpkg
 sudo dpkg --add-architecture i386
 ##add repositroy
@@ -37,7 +37,7 @@ sudo add-apt-repository -y http://ppa.launchpad.net/noobslab/apps/ubuntu
 sudo add-apt-repository -y http://ppa.launchpad.net/obsproject/obs-studio/ubuntu
 
 ##Update repository
-sudo apt update && sudo apt upgrade
+sudo apt update --allow-insecure-repositories && sudo apt upgrade
 
 while true; do
     read -p "Do you wish to downlaod packages?(yes/no)" yn
@@ -70,8 +70,8 @@ while true; do
 done
 
 #Install apt Apps
-sudo apt install -y wine zip unzip yum arc-theme snapd ktorrent vlc obs-studio audacity grub-customizer q4wine inkscape haguichi discord filezilla google-chrome-stable atom lutris steam virtualbox winetricks gimp dish xdotool wireshark zenmap nmap gdebi playonlinux boot-repair blender gnome-tweaks android-sdk lsb git dialog
-sudo apt update && sudo apt upgrade
+sudo apt install -y wine zip unzip yum arc-theme snapd ktorrent vlc krita obs-studio audacity grub-customizer q4wine inkscape haguichi discord filezilla google-chrome-stable atom lutris steam virtualbox winetricks gimp dish xdotool wireshark zenmap nmap gdebi playonlinux boot-repair blender gnome-tweaks android-sdk lsb git dialog
+sudo apt update --allow-insecure-repositories && sudo apt upgrade
 
 while true; do
     read -p "Do you wish to install .deb packages?(yes/no)" yn
@@ -162,7 +162,7 @@ cd ..
 #
 
 #Finish
-sudo apt update -y && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove
+sudo apt update -y --allow-insecure-repositories && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove
 
 while true; do
     read -p "Do you want to reboot your System?(yes/no)" yn

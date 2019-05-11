@@ -41,3 +41,4 @@ zenmap
 playonlinux
 nmap
 gdebi
+yum
