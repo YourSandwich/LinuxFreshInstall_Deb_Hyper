@@ -16,6 +16,25 @@ sudo add-apt-repository -y ppa:ubuntu-wine/ppa #Wine
 sudo add-apt-repository -y ppa:noobslab/apps
 sudo add-apt-repository -y ppa:morphis/anbox-support #Anbox
 sudo add-apt-repository -y ppa:noobslab/themes #Themes
+sudo add-apt-repository -y http://apt.pop-os.org/proprietary
+sudo add-apt-repository -y http://dl.winehq.org/wine-builds/ubuntu/
+sudo add-apt-repository -y http://extras.ubuntu.com/ubuntu
+sudo add-apt-repository -y http://linux.teamviewer.com/deb
+sudo add-apt-repository -y http://ppa.launchpad.net/system76/pop/ubuntu
+sudo add-apt-repository -y https://packages.microsoft.com/ubuntu/16.04/prod
+sudo add-apt-repository -y http://ppa.launchpad.net/webupd8team/haguichi/ubuntu
+sudo add-apt-repository -y http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu
+sudo add-apt-repository -y http://ppa.launchpad.net/graphics-drivers/ppa/ubuntu
+sudo add-apt-repository -y http://ppa.launchpad.net/yannubuntu/boot-repair/ubuntu
+sudo add-apt-repository -y http://ppa.launchpad.net/noobslab/icons/ubuntu
+sudo add-apt-repository -y http://ppa.launchpad.net/danielrichter2007/grub-customizer/ubuntu
+sudo add-apt-repository -y http://packages.microsoft.com/repos/vscode
+sudo add-apt-repository -y http://ppa.launchpad.net/noobslab/themes/ubuntu
+sudo add-apt-repository -y http://ppa.launchpad.net/morphis/anbox-support/ubuntu
+sudo add-apt-repository -y http://dl.google.com/linux/chrome/deb/
+sudo add-apt-repository -y http://ppa.launchpad.net/tehnick/q4wine/ubuntu
+sudo add-apt-repository -y http://ppa.launchpad.net/noobslab/apps/ubuntu
+sudo add-apt-repository -y http://ppa.launchpad.net/obsproject/obs-studio/ubuntu
 
 ##Update repository
 sudo apt update && sudo apt upgrade
@@ -51,7 +70,7 @@ while true; do
 done
 
 #Install apt Apps
-sudo apt install -y wine zip unzip arc-theme snapd ktorrent vlc obs-studio audacity grub-customizer q4wine inkscape haguichi discord filezilla google-chrome-stable atom lutris steam virtualbox winetricks gimp dish xdotool wireshark zenmap nmap gdebi playonlinux boot-repair blender gnome-tweaks android-sdk lsb git dialog
+sudo apt install -y wine zip unzip yum arc-theme snapd ktorrent vlc obs-studio audacity grub-customizer q4wine inkscape haguichi discord filezilla google-chrome-stable atom lutris steam virtualbox winetricks gimp dish xdotool wireshark zenmap nmap gdebi playonlinux boot-repair blender gnome-tweaks android-sdk lsb git dialog
 sudo apt update && sudo apt upgrade
 
 while true; do
