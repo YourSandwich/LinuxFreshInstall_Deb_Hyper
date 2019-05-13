@@ -16,6 +16,7 @@ virtualbox
 discord
 filezilla
 haguichi
+java
 inkscape
 krita
 obs

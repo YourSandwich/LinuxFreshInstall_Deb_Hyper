@@ -1,11 +1,12 @@
 #!/bin/bash
 ##Update your System
 sudo apt update --allow-insecure-repositories && sudo apt upgrade && sudo apt dist-upgrade
+sudo apt-get install software-properties-common
 ##configure dpkg
 sudo dpkg --add-architecture i386
 ##add repositroy
-sudo apt-add-repository -y multiverse #multiverse
-sudo apt-add-repository -y http://extras.ubuntu.com/ubuntu
+sudo add-apt-repository -y multiverse #multiverse
+sudo add-apt-repository -y http://extras.ubuntu.com/ubuntu
 sudo add-apt-repository -y ppa:graphics-drivers #Nvidia
 sudo add-apt-repository -y ppa:yannubuntu/boot-repair #Boot Repair
 sudo add-apt-repository -y ppa:obsproject/obs-studio #OBS Studio
@@ -60,6 +61,7 @@ wget -q http://archive.ubuntu.com/ubuntu/pool/main/i/icu/libicu55_55.1-7_amd64.d
 wget -q http://security.debian.org/debian-security/pool/updates/main/o/openssl/libssl1.0.0_1.0.1t-1+deb8u11_amd64.deb #libssl1.0.0
 wget -q https://dl.google.com/dl/android/studio/ide-zips/3.4.0.18/android-studio-ide-183.5452501-linux.tar.gz #Android Studio
 wget -q https://s3.amazonaws.com/parsec-build/package/parsec-linux.deb #parsec
+wget -q https://www50.zippyshare.com/d/cjJRscKq/760233/jre-8u211-linux-x64.tar.gz #java
 
 while true; do
     read -p "Do you wish to install apt Apps?(yes/no)" yn
@@ -98,6 +100,20 @@ sudo apt install -y apt-transport-https     #Microsoft .NET
 sudo apt update
 sudo apt install -y dotnet-sdk-2.2          #Microsoft .NET
 #
+
+while true; do
+    read -p "Do you want to install Java?(yes/no)" yn
+    case $yn in
+        [Yy]* ) make install; break;;
+        [Nn]* ) exit;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
+
+##Java
+sudo mkdir /usr/java
+tar zxvf jre-8u211-linux-x64.tar.gz
+sudo mv jre1.8.0_211 /usr/java
 
 while true; do
     read -p "Do you wish to install Android Stuff?(yes/no)" yn
