@@ -29,6 +29,7 @@ rambox
 rpm-org
 sencha-cmd-6
 teamviewer
+ttf-ms-fonts
 urlgrabber
 viper4linux-git
 viper4linux-gui-git

@@ -5,6 +5,7 @@ adwaita-icon-theme
 alsa-firmware
 alsa-utils
 android-file-transfer
+aspell-en
 atom
 audacity
 autoconf
@@ -28,6 +29,7 @@ ctags
 dav1d
 dconf-editor
 deepin-system-monitor
+deja-dup
 devhelp
 device-mapper
 dhclient
@@ -132,6 +134,7 @@ gzip
 haveged
 hexchat
 hitori
+hunspell-en_GB
 iagno
 illyria-wallpaper
 imagewriter
@@ -153,6 +156,7 @@ kernel-alive
 kodi
 krita
 kwallet
+languagetool
 less
 lib32-gamemode
 lib32-libva-mesa-driver
@@ -169,6 +173,7 @@ libgoom2
 libheif
 libkate
 libmicrodns
+libmythes
 libnfs
 libreoffice-still
 libtiger
@@ -227,6 +232,7 @@ mobile-broadband-provider-info
 modemmanager
 mousetweaks
 ms-office-online
+mythes-en
 nano
 nautilus
 nautilus-admin
@@ -253,6 +259,7 @@ openssh
 optimus-manager
 os-prober
 p7zip
+pacaur
 pacman
 pacui
 pamac-gtk
