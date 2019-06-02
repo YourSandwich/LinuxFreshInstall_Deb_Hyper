@@ -6,6 +6,7 @@ aircrack-ng
 alsa-firmware
 alsa-utils
 android-file-transfer
+aspell-de
 aspell-en
 at
 atom
@@ -13,6 +14,7 @@ audacity
 autoconf
 automake
 avahi
+awesome-terminal-fonts
 b43-fwcutter
 baobab
 bash
@@ -61,6 +63,9 @@ filesystem
 filezilla
 findutils
 firefox
+firefox-i18n-de
+firefox-i18n-en-gb
+firefox-i18n-en-us
 fish
 five-or-more
 flashplugin
@@ -70,10 +75,14 @@ fprintd
 gamemode
 gawk
 gcc-libs
+gdm
 gedit
 gettext
 ghex
 gimp
+gimp-help-de
+gimp-help-en
+gimp-help-en_gb
 gksu-polkit
 glibc
 gnome-backgrounds
@@ -142,8 +151,12 @@ hashcat-utils
 haveged
 hexchat
 hitori
+hunspell-de
 hunspell-en_GB
+hunspell-en_US
 hydra
+hyphen-de
+hyphen-en
 iagno
 illyria-wallpaper
 imagewriter
@@ -163,6 +176,7 @@ jre8-openjdk
 jre8-openjdk-headless
 kdenlive
 kernel-alive
+kernel-headers-musl
 kismet
 kodi
 krita
@@ -187,6 +201,8 @@ libmicrodns
 libmythes
 libnfs
 libreoffice-still
+libreoffice-still-de
+libreoffice-still-en-gb
 libtiger
 libva-intel-driver
 libva-mesa-driver
@@ -194,10 +210,15 @@ libva-vdpau-driver
 licenses
 lightsoff
 linux-firmware
-linux-rt-manjaro-nvidia
+linux-rt-lts-manjaro-headers
+linux-rt-manjaro-headers
 linux419
+linux419-headers
 linux419-nvidia
 linux419-r8168
+linux49-headers
+linux50-headers
+linux51-headers
 linux51-nvidia
 lirc
 live-media
@@ -213,6 +234,7 @@ m4
 make
 man-db
 man-pages
+man-pages-de
 manjaro-alsa
 manjaro-application-utility
 manjaro-artwork
@@ -244,6 +266,7 @@ mobile-broadband-provider-info
 modemmanager
 mousetweaks
 ms-office-online
+mythes-de
 mythes-en
 nano
 nautilus
@@ -268,7 +291,6 @@ opencl-nvidia
 opencolorio
 openresolv
 openssh
-optimus-manager
 os-prober
 p7zip
 pacaur
@@ -285,6 +307,7 @@ pluma
 polari
 polkit-gnome
 poppler-qt5
+powerline-fonts
 powertop
 procps-ng
 projectm
@@ -297,6 +320,7 @@ python2-lxml
 python2-numpy
 python2-scour
 qbittorrent
+qt5-translations
 quadrapassel
 recordmydesktop
 reiserfsprogs
@@ -322,6 +346,7 @@ systemd-sysvcompat
 tali
 tar
 telepathy-accounts-signon
+terminator
 terminus-font
 texinfo
 texlive-core
@@ -350,6 +375,7 @@ vde2
 vi
 vino
 virtualbox
+virtualbox-ext-vnc
 vlc
 vulkan-intel
 vulkan-radeon
