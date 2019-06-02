@@ -2,6 +2,8 @@ anbox-git
 anbox-image
 android-sdk
 android-studio
+cemu
+citra-qt-git
 crossover
 discord
 gdm-prime
@@ -28,6 +30,7 @@ python2-pyliblzma
 rambox
 rpm-org
 sencha-cmd-6
+skypeforlinux-stable-bin
 teamviewer
 ttf-ms-fonts
 urlgrabber
