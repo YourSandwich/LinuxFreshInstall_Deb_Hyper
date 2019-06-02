@@ -6,6 +6,14 @@ aircrack-ng
 alsa-firmware
 alsa-utils
 android-file-transfer
+android-sdk
+arc-gtk-theme
+arc-icon-theme
+arc-maia-icon-theme
+arc-themes-breath
+arc-themes-maia
+arc-themes-solid-breath
+arc-themes-solid-maia
 aspell-de
 aspell-en
 at
@@ -20,6 +28,7 @@ baobab
 bash
 bash-completion
 bison
+blackarch-keyring
 blender
 btrfs-progs
 bzip2
@@ -316,8 +325,10 @@ pstoedit
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
+python2-iniparse
 python2-lxml
 python2-numpy
+python2-pyliblzma
 python2-scour
 qbittorrent
 qt5-translations

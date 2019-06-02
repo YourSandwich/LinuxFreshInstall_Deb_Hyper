@@ -1,6 +1,5 @@
 anbox-git
 anbox-image
-android-sdk
 android-studio
 cemu
 citra-qt-git
@@ -23,8 +22,6 @@ packettracer
 parsec-bin
 prime-switcher
 properties-cpp
-python2-iniparse
-python2-pyliblzma
 rpm-org
 sencha-cmd-6
 skypeforlinux-stable-bin
